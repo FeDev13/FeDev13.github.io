@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Mascarilla",
+    "Foto": "https://i.ibb.co/NNmjrDY/IMG-20210603-221712421.jpg",
+    "Categoria": "Cosmetica",
+    "Stock": 13,
+    "Precio": 400
+  },
+  {
+    "Id": 2,
+    "Nombre": "Serum lifting tensor",
+    "Foto": "https://i.ibb.co/f8zHrgf/14-4-2021-10-36-26-p-m.png",
+    "Categoria": "Materiales",
+    "Stock": 12,
+    "Precio": 550
+  },
+  {
+    "Id": 3,
+    "Nombre": "Serum con Dmae",
+    "Foto": "https://i.ibb.co/Wgh19g8/14-4-2021-10-04-24-p-m.png",
+    "Categoria": "Materiales",
+    "Stock": 29,
+    "Precio": 800
+  },
+  {
+    "Id": 4,
+    "Nombre": "Crema de limpieza",
+    "Foto": "https://i.ibb.co/NZbDX9r/IMG-20210703-163356577.jpg",
+    "Categoria": "Cosmetica",
+    "Stock": 5,
+    "Precio": 700
+  },
+  {
+    "Id": 5,
+    "Nombre": "Locion hidratante",
+    "Foto": "https://i.ibb.co/jJbjQ70/IMG-20210703-163402020.jpg",
+    "Categoria": "Cosmetica",
+    "Stock": 30,
+    "Precio": 220
+  },
+  {
+    "Id": 6,
+    "Nombre": "Crema acne balance",
+    "Foto": "https://i.ibb.co/9hpYwVP/acne-balance-removebg-preview.png",
+    "Categoria": "Varios",
+    "Stock": 10,
+    "Precio": 480
+  }
+]

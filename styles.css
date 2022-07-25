@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  }
+body {
+  
+  background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.dhluxuriousacabados.com%2Fwp-content%2Fuploads%2F2020%2F10%2FPietra-Marmol-Blanco-Calacatta-Vagli.jpg&imgrefurl=https%3A%2F%2Fwww.dhluxuriousacabados.com%2Fproducto%2Fpietra-marmol-blanco-calacatta-vagli-2%2F&tbnid=4_fGWgwCUp16MM&vet=12ahUKEwi238b_p_H4AhUgMrkGHWF-By0QMygregUIARDKAg..i&docid=z9To13iY6x61hM&w=1000&h=1000&q=marmol%20blanco&ved=2ahUKEwi238b_p_H4AhUgMrkGHWF-By0QMygregUIARDKAg);
+  background-size: cover;
+}
+h2 {
+  font-weight:600;
+  font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+}
+h5{
+  padding: 15px 10px;
+}
+header {
+  background-color: #BF8085;
+  border-bottom: #737373 solid 2px;
+  
+}
+
+li {
+  margin: 10px;
+}
+
+#contenedorProductos {
+  background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.dhluxuriousacabados.com%2Fwp-content%2Fuploads%2F2020%2F10%2FPietra-Marmol-Blanco-Calacatta-Vagli.jpg&imgrefurl=https%3A%2F%2Fwww.dhluxuriousacabados.com%2Fproducto%2Fpietra-marmol-blanco-calacatta-vagli-2%2F&tbnid=4_fGWgwCUp16MM&vet=12ahUKEwi238b_p_H4AhUgMrkGHWF-By0QMygregUIARDKAg..i&docid=z9To13iY6x61hM&w=1000&h=1000&q=marmol%20blanco&ved=2ahUKEwi238b_p_H4AhUgMrkGHWF-By0QMygregUIARDKAg);
+  background-size: cover;
+  margin-top: 170px;
+}
+#carrito{
+  margin-top: 150px;
+  margin-right: 150px;
+}
+#Cart {
+border-radius: 10px;
+width: auto;
+padding: 0 10px 0 10px;
+margin-left: 50px;
+height: 10%;
+margin-top: 18px;
+}
+
+@media (max-width: 991px){
+  #Cart {
+    width: 20%;
+    margin-left: 8px;
+  }
+}
+
+.productoEnCarrito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.botonAgregar {
+  border-radius: 7px;
+  background-color: pink;
+}
+.div{
+  margin: 300px;
+}
+.carrito-contenedor{
+  float: right;
+  margin-top: 150px;
+  width: 40%;
+  border-radius: 15px;
+  border-width: thin;
+  border: black solid;
+  padding: 7px;
+}
+.panel {
+  margin: 40px;
+  display: inline-block;  
+}
+.panel1 {
+  border-radius: 30px;
+  box-shadow: 2px 2px  #737373;
+  width: 50%;
+}
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  }
+#addButton{
+  border-radius: 10px;
+  width: 8%;
+  background-color:  #BF8085
+}
+#mybtn{
+  border-radius: 25px;
+}
+.container {
+    
+   background-color: none;
+  
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.column1 {
+  margin: 20px;
+}
+.column2 {
+  margin: 20px;
+}
+.column3{
+  margin: 20px;
+}
+.carrito-main {
+  overflow-y: auto;
+  max-height: 350px;
+}
+.subtotal {
+  padding: 5%;
+  text-align: right;
+}
+.checkout, .ver-carrito {
+  width: 95%;
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+  color: antiquewhite;
+  margin: 10px auto;
+  padding: 10px 15px;
+}
+.ver-carrito {
+  background-color: #BF8085;
+  color: white;
+  border: 2px solid;
+  margin: 10px auto;
+  padding: 10px 15px;
+}
+.div-styled {
+  height: 100px;
+  margin: 100px;
+  border: solid;
+  
+}
+
+#botonFinalizar {
+  margin: 10px;
+}
+#cart-products{
+  border-radius: 8px;
+  position: absolute;
+  top: 55%;
+  left: 62%;
+  background-color:	 #BF8085;
+  width: 36% !important;
+  display: none;
+  z-index: 2;
+}
+.cart-item{
+  display:grid;
+  grid-template-columns: 3fr 6fr 1fr;
+  padding:5% 2%;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+#cross {
+float: left;
+}
+#sumfinal {
+  width: 40%;
+}
+#sumaTotal {
+  float: right;  
+}
+.bg-image {
+  z-index: 1;
+  height: 50%;
+}

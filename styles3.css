@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 5rem;
+}
+#btnReg {
+    background-color: #BF8085;
+}
+a {
+    color: black;
+}
+#form1Example3{
+    background-color: #BF8085;
+}
+.cart-item {
+    display: flex;
+    width: 50%;
+}
+.table {
+    text-align: left; 
+    justify-content: space-around;
+    border: thick black;
+}
