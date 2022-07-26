@@ -80,7 +80,7 @@ const renderCarrito = () => {
       let nuevoDiv = document.createElement("div");
       nuevoDiv.classList.add("cart-item");
       nuevoDiv.innerHTML = `<div class="cart-item">
-      <img src="${Foto}" class = "img-fluid"> 
+      <img src="${Foto}" class = "img-fluid card-img-top" id="imgCarrito"> 
       <div class="details">
           <h5>${Nombre}</h5>
           <p>$${Precio}<p>
